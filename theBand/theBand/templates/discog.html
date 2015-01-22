@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 
+{% block title %}
+<title>Discography</title>
+<link rel="stylesheet" type="text/css" href="/static/css/custom.css">
+{% endblock title %}
+
 {% block navbar %}
 <li><a href="{% url 'theBand.views.home' %}">Home</a></li>
 <li><a href="{% url 'theBand.views.about' %}">About the Band</a></li>
@@ -9,5 +14,51 @@
 
 
 {% block content %}
-<h1>This is the discography.</h1>
+<h1>Discography</h1>
+<div>
+    <p style="float: left; padding-right:25px;"><img src="/static/images/YourImage.png" height="200px" width="200px"  border="1px"></p>
+    <h1>Name of Album</h1>
+    <h3>Studio album by Puppy Pendulum</h3>
+    <p> Release Date: </p>
+    <p> Recorded:  </p>
+    <p> Label:  </p>
+    <p> Producers:  </p>
+</div>
+
+<hr>
+
+<div>
+    <p style="float: left; padding-right:25px;"><img src="/static/images/YourImage.png" height="200px" width="200px"  border="1px"></p>
+    <h1>Name of Album</h1>
+    <h3>Studio album by Puppy Pendulum</h3>
+    <p> Release Date: </p>
+    <p> Recorded:  </p>
+    <p> Label:  </p>
+    <p> Producers:  </p>
+</div>
+
+<hr>
+    
+<div>
+    <p style="float: left; padding-right:25px;"><img src="/static/images/YourImage.png" height="200px" width="200px"  border="1px"></p>
+    <h1>Name of Album</h1>
+    <h3>Studio album by Puppy Pendulum</h3>
+    <p> Release Date: </p>
+    <p> Recorded:  </p>
+    <p> Label:  </p>
+    <p> Producers:  </p>
+</div>
+
+<hr>
+    
+<div>
+    <p style="float: left; padding-right:25px;"><img src="/static/images/YourImage.png" height="200px" width="200px"  border="1px"></p>
+    <h1>Name of Album</h1>
+    <h3>Studio album by Puppy Pendulum</h3>
+    <p> Release Date: </p>
+    <p> Recorded:  </p>
+    <p> Label:  </p>
+    <p> Producers:  </p>
+</div>
+
 {% endblock %}
