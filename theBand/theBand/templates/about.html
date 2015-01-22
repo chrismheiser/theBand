@@ -1,14 +1,19 @@
 {% extends "base.html" %}
 
+{% block title %}
+<title>Puppy Pendulum</title>
+{% endblock title %}
+
 {% block navbar %}
 <li><a href="{% url 'theBand.views.home' %}">Home</a></li>
 <li class="active"><a href="#">About the Band<span class="sr-only">(current)</span></a></li>
 <li><a href="{% url 'theBand.views.discog' %}">Discography</a></li>
 <li><a href="{% url 'theBand.views.tourdates' %}">Tour Dates</a></li>
-{% endblock %}
+{% endblock navbar %}
 
 
 {% block content %}
+<<<<<<< HEAD
 <p>Puppy Pendulum is a punk rock band from the cold, desolate Seattle, Washington. They started out as a group of high school friends that ran out of things to do in the summer of 2005. Since it rained every day that year, they often chose not to leave the house, and started learning how to play instruments in Brandon's garage. They played loudly. They played badly. The many months of practice finally started to form into sounds that resembled a punk rock style. <br>
 	
 The band released their first EP, "Throw us a Bone", and began playing small shows around the city. Puppy Pendulum couldn't gain popularity within their hometown, and by sumemr 2007 they began a tour on their own down the west coast. Their big break came in L.A. after a opening band dropped out and they were able to open for Rise Against. 
@@ -57,54 +62,51 @@ img {
 }
 </style>
     <div class="container">
+=======
+<h1>About Puppy Pendulum</h1>
+<p>Puppy Pendulum is a punk rock band from the cold, desolate Seattle, Washington. They started out as a group of high school friends that ran out of things to do in the summer of 2005. Since it rained every day that year, they often chose not to leave the house, and started learning how to play instruments in Brandon's garage. They played loudly. They played badly. The many months of practice finally started to form into sounds that resembled a punk rock style. <br><br>
+>>>>>>> FETCH_HEAD
 
-      <div class="blog-header">
-      </div>
-      <div class="row">
+The band released their first EP, "Throw us a Bone", and began playing small shows around the city. Puppy Pendulum couldn't gain popularity within their hometown, and by summer 2007 they began a tour on their own down the west coast. Their big break came in L.A. after a opening band dropped out and they were able to open for Rise Against.
+</p>
 
-            <h3>Eduardo Iniguez</h3>
-                    <img src="/static/bootstrap/images/Eduardo.png"  style="width:260px;height:259px">
-
-            <p>     My name is Eduardo Iniguez and I am a member of the Band Number 6 musical group. I have been part of this band
-            for several years and have enjoyed it dearly. I play the Drums and in some occasions I also play the Guitar. I enjoy playing sports on my free time as well as develop web pages.  </p>
-          
-          <div class="blog-post">
-            <h6 Social Media</h6>
-
-            <ul>
-              <li><a href="https://www.facebook.com/">Visit My Facebook</a></li>
-              <li><a href="http://www.http://instagram.com/">Visit My Instagram</a></li>
-              <li><a href="https://twitter.com/?lang=en">Visit My Twitter</a></li>
-            </ul>
-           
-          </div><!-- /.blog-post -->
-
-        
-
-
-
-      </div><!-- /.row -->
-
-    </div><!-- /.container -->
-
-    <footer class="blog-footer">
-      <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-      <p>
-        <a href="#">Back to top</a>
-      </p>
-    </footer>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-
+<<<<<<< HEAD
   </body>
 </html>
 {% endblock %}
+=======
+<h1>Band Members </h1>
+<div class="row">
+  <div class="col-md-4">
+    <img src="/static/images/YourImage.png" class="img-responsive center-block" alt="Image" style="min-width: 150px">
+    <h3>Name here</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus leo id quam blandit, eget tristique magna auctor. Ut commodo, nisi quis ultrices suscipit, sem leo mollis nisl, id maximus urna risus eu purus. Vivamus ultricies dictum justo et hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi tincidunt mauris ac elit pellentesque ultricies. Proin dui.</p>
+  </div>
+  <div class="col-md-4">
+    <img src="/static/images/Eduardo.png" class="img-responsive center-block" alt="Image" style="min-width: 150px; ">
+    <h3>Eduardo Iniguez</h3>
+    <p>My name is Eduardo Iniguez and I am a member of the Puppy Pendulum musical group. I have been part of this band for several years and have enjoyed it dearly. I play the Drums and in some occasions I also play the Guitar. I enjoy playing sports on my free time as well as develop web pages.</p>
+  </div>
+  <div class="col-md-4">
+    <img src="/static/images/YourImage.png" class="img-responsive center-block" alt="Image" style="min-width: 150px">
+    <h3>Name here</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus leo id quam blandit, eget tristique magna auctor. Ut commodo, nisi quis ultrices suscipit, sem leo mollis nisl, id maximus urna risus eu purus. Vivamus ultricies dictum justo et hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi tincidunt mauris ac elit pellentesque ultricies. Proin dui.</p>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-md-4 col-md-offset-1">
+    <img src="/static/images/Cherie.png" class="img-responsive center-block" alt="Image" style="min-width: 150px">
+    <h3>Cherie Parsons</h3>
+    <p>My name is Cherie Parsons and I am the basist of Puppy Pendulum. It came naturally for us to start a band since Washington is an awful place to live. The weather is always bad, so staying inside and jamming all day was all there was to do. These people are some of the best friends I could ask for I and have enjoyed working with them.</p>
+  </div>
+  <div class="col-md-4 col-md-offset-1">
+    <img src="/static/images/YourImage.png" class="img-responsive center-block" alt="Image" style="min-width: 150px">
+    <h3>Name here</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus leo id quam blandit, eget tristique magna auctor. Ut commodo, nisi quis ultrices suscipit, sem leo mollis nisl, id maximus urna risus eu purus. Vivamus ultricies dictum justo et hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi tincidunt mauris ac elit pellentesque ultricies. Proin dui.</p>
+  </div>
+</div>
+
+
+{% endblock content %}
+>>>>>>> FETCH_HEAD
